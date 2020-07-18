@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+  <link rel="stylesheet" href="style-2.css">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/Főoldal-3.html">Falánkbár</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/Rólunk-2.html">Rólunk <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Táblázatos-2.html">Ét-Itallap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ürlap-2.html">Rendelés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Akció-2.html">Akció</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Elérhetőség.html">Elérhetőség</a>
+            </li>
+          
+            
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Keresés" aria-label="Keresés">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Keresés</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container">
+      
+            
+          
+            
+            
+      <table class="table tabel-striped table-hovered table-sm">
+
+      <form>
+        <fieldset>
+            <legend class="ürcim">Személyes adatok</legend>
+            <div class="adat">
+                <label for="name">Név:*</label>
+                <input id="name" name="name"type="text" required>
+              </div>
+            <div class="adat">
+                <label for="email">Email cím:*</label>
+                <input id="email" name="email" type="text" required>
+            </div>
+    
+            <div class="adat">
+                <label>Cím:*</label>
+                <input id="adat"  name="address" type="text" required> 
+            </div>
+    
+            <div class="adat">
+                <label>Megjegyzés:</label>
+                <textarea id="comment" name="comment"  type="text" row="8"></textarea>
+            </div>
+        </fieldset>
+
+        <p><b>Szipla/Dupla Szendvics</b></p>
+        <div class="btn-group">
+          
+          <button class="btn-1"> Szimpla
+          <button class="btn-2">Dupla</button>
+        </div>
+        
+        <p><b>Szendvicsek</b></p>
+
+        <select name="Szendvicsek" id="szelekció">
+        <option value="mar">Marha </option>
+        <option value="csir">Rántott csirke</option>
+        <option value="puly">Pulyka</option>
+        <option value="ser">Sertés</option>
+        <option value="sely">Sejtán</option>
+      </select>
+
+      <p><b>Mennyiség</b></p>
+      <select name="Mennyiség"  id="szelekció">
+       <option value="0">0</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="több">Több</option>
+       </select>
+       
+
+        <div class="adat">
+        <textarea id="comment"   name="comment" type="text" ></textarea>
+      </div>
+      
+       <p><b> Köretek</b></p>
+       <select name="Köretek" id="szelekció">
+        <option value="csónak">Csónak burgonya</option>
+        <option value="hasáb">Hasáb burgonya</option>
+        <option value="btallér">Burgonya tallérok</option>
+        <option value="krokett">Burgonya krokett</option>
+        <option value="steakb">Fűszeres steak burgonya</option>
+        <option value="karika">Karika burgonya</option>
+        </select>
+
+        <p><b>Mennyiség</b></p>
+      <select name="Mennyiség"  id="szelekció">
+       <option value="0">0</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="több">Több</option>
+       </select>
+
+       <div class="adat">
+        <textarea id="comment"   name="comment" type="text" ></textarea>
+      </div>
+
+   
+
+      <p><b> Saláták</b></p>
+        <select name="Saláta" id="szelekció">
+       <option value="görög">Görögsaláta</option>
+       <option value="cézár">Cézársaláta</option>
+       <option value="tonhal">Tonhalsaláta</option>
+</select>
+
+<p><b>Mennyiség</b></p>
+<select name="Mennyiség"  id="szelekció">
+ <option value="0">0</option>
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <option value="4">4</option>
+ <option value="több">Több</option>
+ </select>
+ 
+
+  <div class="adat">
+  <textarea id="comment"   name="comment" type="text" ></textarea>
+</div>
+
+        <fieldset>
+            <legend class="ürcim">Termék Adatok</legend>
+            <span>Extra feltét</span>
+              <div class="adat">
+                  <input checked id="nothing" name="extra" type="radio" value="300">
+                  <label for="nothing">Nem kérek</label>
+              </div>
+              <div class="adat">
+                  <input checked id="cheese" name="extra" type="radio" value="600">
+                  <label for="cheese">Feltét:sajt</label>
+              </div>
+    
+              <div class="adat">
+                  <input id="doube-cheese" name="extra" type="radio" value="300">
+                  <label for="doube-cheese">Feltét:duplasajt</label>
+              </div>
+              <div class="adat">
+                  <input id="onion" name="extra" type="radio" value="300">
+                  <label for="onion">Feltét:hagyma</label>
+              </div>
+              
+              <div class="adat">
+                  <input id="doube-onion" name="extra" type="radio" value="300">
+                  <label for="doube-onion">Feltét:duplahagyma</label>
+              </div>
+              <div class="adat">
+                  <input id="doube-veggie" name="extra" type="radio" value="300">
+                  <label for="doube-veggie">Feltét:duplasaláta</label>
+              </div>
+
+              <div class="btn-group">
+          
+                <button class="btn btn-success"> Rendelés</button>
+              </div>
+        </fieldset>
+        </form>
+
+        </table>
+          </div>
+          </div>
+
+        
+      
+</body>
+</html>
